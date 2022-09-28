@@ -1244,7 +1244,7 @@ religious_unity = {
 }
 
 inverse_religious_unity = {
-	stability_cost_modifier = 1.0			#more expensive to recover stability
+	stability_cost_modifier = 1.0		#more expensive to recover stability
 	global_unrest = 3
 	church_power_modifier = -1
 	devotion = -1
@@ -1510,7 +1510,8 @@ pirate_subject = {
 
 subject_tax_modifier = {
 	global_tax_modifier = 0.25
-}												   
+}
+
 #scales to amount of up-to-date forts compared to total development
 maintained_forts = {
 	army_tradition = 1
@@ -2035,7 +2036,7 @@ expanded_infrastructure = {
 	ship_recruit_speed = -0.15
 	local_defensiveness = 0.2
 	garrison_growth = 0.25
-	local_development_cost = -0.05
+	local_development_cost = -0.1
 	local_production_efficiency = 0.05
 	local_tax_modifier = 0.1
 	local_manpower_modifier = 0.05
@@ -2046,8 +2047,8 @@ expanded_infrastructure = {
 	local_build_time = -0.05
 	province_trade_power_modifier = 0.05
 	trade_goods_size_modifier = 0.05
-	local_governing_cost_increase = 50
-	local_governing_cost = 1.0
+	local_governing_cost_increase = 15
+	local_governing_cost = 0.1
 	local_great_project_upgrade_cost = -0.05
 }
 
